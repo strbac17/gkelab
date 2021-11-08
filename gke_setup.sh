@@ -18,7 +18,7 @@ clustername=${clustername:-my-cluster}
 read -p "Enter App Name (Default: demo-app): " app
 app=${app:-demo-app}
 
-read -p "Enter GCP Region (Default: asia-southeast1): " region
+read -p "Enter GCP Region (Default: europe-central2): " region
 region=${region:-asia-southeast1}
 
 read -p "Enter Your Service Name (Default: my-service): " service1
